@@ -1,0 +1,20 @@
+//Declaration of strings//
+
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+    char strname[30];
+    printf("Enter the srting\n");
+    scanf("%[^\n]s", strname);
+    printf("The string is %s\n", strname);
+
+    return 0;
+}
+
+
+
+
+// OUTPUT:
+// The string is Hi this is Kunal
